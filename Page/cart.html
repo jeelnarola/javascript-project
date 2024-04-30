@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cart</title>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <style>
+            @import url(/Style/all.min.css);
+            @import url(/Style/font.css);
+            @import url(/Style/index.css);
+            @import url(/Style/media.css);
+            
+        </style>
+    </head>
+<body>
+    <div id="cartloader"></div>
+    <div id="cartheader"></div>
+    <section>
+        <table id="t-cart">
+            <thead id="th-cart">
+                <th>subtotal</th> 
+                <th>quantity</th>
+                <th>GST tax (12%)</th>  
+                <th>total</th>  
+            </thead>
+            <tbody id="tb-cart">
+                <tr>
+                    <td id="subtotal"></td>
+                    <td id="tdqyt"></td>
+                    <td id="gst"></td>
+                    <td id="total"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div  id="cart">
+            <div class="row pb" id="rowapp">
+            </div>
+        </div>
+        <!-- </div> -->
+    </section>
+    <div id="footerpro"></div>
+    <script type="module" src="/Javascript/cart.js"></script>
+</body>
+</html>

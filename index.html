@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+        @import url(Style/all.min.css);
+        @import url(Style/font.css);
+        /* @import url(Style/slider.css); */
+        @import url(Style/index.css);
+        @import url(Style/media.css);
+        .insta-img{
+            width: 200px;
+            height: 200px;
+        }
+        .insta-img img{
+            width: 100%;
+            height: 100%;
+            filter: grayscale(100%);
+            transition: all 0.1s ease-in;
+        }
+        .insta-img:hover img{
+            cursor: pointer;
+            filter: grayscale(0%);
+        }
+        .homecoffee-img{
+            width: 100px;
+            height: 100px;
+        }
+        .homecoffee-img img{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="Style/index.css"> -->
+    <!-- <link rel="stylesheet" href="Style/media.css"> -->
+</head>
+<body>
+
+    <!-- <div class="img-box-1">
+        <img src="" alt="" id="image-loader">
+    </div>` -->
+    
+
+    <div id="homeloader"></div>
+    <!-- <div id="homehead"></div> -->
+    <header>
+        <div class="container">
+            <div class="row justify-content align-items">
+                <div class="logo">
+                    <img src="https://caramelly.in/cdn/shop/files/caramelly-logo-new_200x.png?v=1649194947" alt="">
+                </div>
+                <nav>
+                    
+                    <ul class="row ">
+                        <div><i class="fa-solid fa-xmark"></i></div>
+                        <li>
+                            <home href="/index.html" style="font-weight: 700;font-size: 15px;">home</a>
+                        </li>
+                        <li><a href="Page/product.html" style="font-weight: 700;font-size: 15px;">product</a></li>
+                        
+                    </ul>
+                </nav>
+                <div class="btn">
+                    <a href="/Page/login.html" id="login">login</a>
+                    <a href="/Page/sign.html" id="signup">sign-up</a>
+                    <div class="carticon">
+                        <button class="">
+                            <a href="Page/cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <div class="cart-s"></div>
+                        </button>
+                        
+                    </div>
+                    <div id="profile"></div>
+                    <div><i class="fa-solid fa-bars"></i></div>
+                </div>
+            </div>
+            <aside id="user-profile">
+                <i class="fa-solid fa-xmark" id="close"></i>
+                <div class="profile" id="profilee">
+                </div>
+                <a href="Page/sign.html" id="logout">logout</a>
+                <a href="/Page/addproduct.html" id="addproduct">Add Product</a>
+            </aside>
+        </div>
+    </header>
+    <!-- <div class="loader-one"></div> -->
+
+    <!-- banner section -->
+    <section class="banner col-xs-12 col-xl-12">
+
+
+        <div id="fadeSlider" class="slidrWrapper">
+                <div class=""><img
+                        src="https://caramelly.in/cdn/shop/files/Website_-_Desktop_Banner_1800_x_800_px_5_1400x.jpg?v=1681748043">
+                </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Revolution section -->
+
+    <section class="revolution">
+        <div class="container">
+            <div class="row" data-aos="fade-up">
+                <div class="w-50">
+                    <div class="sub-heading" >
+                        <p>Capsule coffee, but better</p>
+                    </div>
+                    <div class="heading">
+                        <h1>A REVOLUTION IN HOME BREWING</h1>
+                    </div>
+                    <div class="content">
+                        <p>ep dive into the features and technology that makes the Morning Machine the best capsule
+                            machine in the world.</p>
+                            <a href="#"><p>LEARN MORE</p></a>
+                    </div>
+                </div>
+                <div class="w-50">
+                    <div class="box-img">
+                        <img src="https://caramelly.in/cdn/shop/files/morning-machine-nespresso_600x.gif?v=1642757009"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- coffee flavour section-->
+    <section class="coffee-1" >
+        <h2 class="" data-aos="zoom-in" data-aos-duration="1000">What's on your mind?</h2>
+        <div class="container">
+            <div class="row align-items justify-content-center" data-aos="zoom-out" data-aos-duration="1000">
+                <div class="text-center coffee-t">
+                    <img src="image/c-1.png" alt="">
+                    <p class="roboto">Nespresso Capsule</p>
+                </div>
+                <div class="text-center coffee-t">
+                    <img src="image/c-2.png" alt="">
+                    <p class="roboto">Nespresso Machine</p>
+                </div>
+                <div class="text-center coffee-t">
+                    <img src="image/c-3.png" alt="">
+                    <p class="roboto">Instance & Beans</p>
+                </div>
+                <div class="text-center coffee-t">
+                    <img src="image/c-4.png" alt="">
+                    <p class="roboto">Bean-to-cup Machine</p>
+                </div>
+                <div class="text-center coffee-t">
+                    <img src="image/c-5.png" alt="">
+                    <p class="roboto">Frothers & Necessities</p>
+                </div>
+                <div class="text-center coffee-t">
+                    <img src="image/c-6.png" alt="">
+                    <p class="roboto">Lavazza Coffee</p>
+                </div>
+                <div class="text-center coffee-t">
+                    <img src="image/c-7.png" alt="">
+                    <p class="roboto">Dolce Gusto Pods</p>
+                </div>
+                <div class="text-center coffee-t">
+                    <img src="image/c-8.png" alt="">
+                    <p class="roboto">French Coffee Syrups</p>
+                </div>
+                <div class="text-center coffee-t">
+                    <img src="image/c-9.png" alt="">
+                    <p class="roboto">Oats & Almond</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- download   -->
+    <section class="download">
+        <div class="container">
+            <div class="row justify-content-center align-items">
+                <a href=""><img src="image/appstore.png" alt="" id="appstore" data-aos="slide-right" data-aos-duration="4000" data-aos-offset="100"></a>
+                <a href=""><img src="image/playstore.png" alt="" data-aos="slide-left" data-aos-duration="4000" data-aos-offset="100"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- spotlight section  -->
+    <section class="spotlight" >
+        <div class="container">
+            <h2 class="abril"  data-aos="zoom-in-down" data-aos-duration="1000">Spotlight</h2>
+            <ul class="row  roboto justify-content-center text-center" data-aos="zoom-in" data-aos-duration="1000">
+                <li><a href="" id="nc">Necessities</a></li>
+                <li><a href="" id="bt">Bean-to-Cup</a></li>
+                <li><a href="" id="ns">Nespresso</a></li>
+                <li><a href="" id="cf">Coffee</a></li>
+            </ul>
+            <div class="row">
+                <div id="nct" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12">
+                            <div class="spot-img">
+                                <img src="image/spot-1.jpg" alt="">
+                            </div>
+                            <div class="spot-content">
+                                <div class="row justify-content">
+                                    <h3 class="roboto">Acrylic Qube</h3>
+                                    <a href="">
+                                        <h3 class="roboto">₹1,999<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <p class="spotp roboto">Light up your capsules from every corner with this cube-shaped
+                                    Nespresso capsules storage dispenser.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12">
+                            <div class="spot-img">
+                                <img src="image/spot-2.jpg" alt="">
+                            </div>
+                            <div class="spot-content">
+                                <div class="row justify-content">
+                                    <h3 class="roboto">Coffee Mug</h3>
+                                    <a href="">
+                                        <h3 class="roboto">₹1,499<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <p class="spotp roboto">One design featuring an oasis while the other has a desert -
+                                    adding an eye-catching touch to your morning coffee.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12">
+                            <div class="spot-img">
+                                <img src="image/spot-3.jpg" alt="">
+                            </div>
+                            <div class="spot-content">
+                                <div class="row justify-content">
+                                    <h3 class="roboto">Nespresso Aeroccino4</h3>
+                                    <a href="">
+                                        <h3 class="roboto">₹15,990<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <p class="spotp roboto">Your daily cappuccino is just waiting for you. Cafe like coffee
+                                    now at your home.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="btc">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12">
+                            <div class="spot-img">
+                                <img src="image/spot-4.jpg" alt="">
+                            </div>
+                            <div class="spot-content">
+                                <div class="row justify-content">
+                                    <h3 class="roboto">Melitta Avanza</h3>
+                                    <a href="">
+                                        <h3 class="roboto">₹79,900<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <p class="spotp roboto">Impressive design and equally Impressive features. Now serve
+                                    delicious coffee to your surprise visitors.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12">
+                            <div class="spot-img">
+                                <img src="image/spot-5.jpg" alt="">
+                            </div>
+                            <div class="spot-content">
+                                <div class="row justify-content">
+                                    <h3 class="roboto">Gaggia Color Vibe</h3>
+                                    <a href="">
+                                        <h3 class="roboto">₹49,990<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <p class="spotp roboto">Intended for the "home barista" who wants to make his coffee
+                                    corner even more personal and exclusive.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12">
+                            <div class="spot-img">
+                                <img src="image/spot-6.jpg" alt="">
+                            </div>
+                            <div class="spot-content">
+                                <div class="row justify-content">
+                                    <h3 class="roboto">Saga Touch</h3>
+                                    <a href="">
+                                        <h3 class="roboto">₹1,84,990<i
+                                                class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                                    </a>
+                                </div>
+                                <p class="spotp roboto">Barista quality with a clear touchscreen display, pre-programmed
+                                    coffee menu and automatic milk consistency.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="nsp">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12">
+                            <div class="spot-img">
+                                <img src="image/spot-7.jpg" alt="">
+                            </div>
+                            <div class="spot-content">
+                                <div class="row justify-content">
+                                    <h3 class="roboto">Pixie Titan</h3>
+                                    <a href="">
+                                        <h3 class="roboto">₹19,999<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <p class="spotp roboto">19-bar high-pressure pump and a fast heat-up system. A machine
+                                    crafted for those with strong standards in coffee.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12">
+                            <div class="spot-img">
+                                <img src="image/spot-8.jpg" alt="">
+                            </div>
+                            <div class="spot-content">
+                                <div class="row justify-content">
+                                    <h3 class="roboto">Vertuo Pop</h3>
+                                    <a href="">
+                                        <h3 class="roboto">₹25,999<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <p class="spotp roboto">From Espresso to Alto, simply choose your Vertuo capsule, pop it
+                                    in, and it's ready at the touch of a button.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12">
+                            <div class="spot-img">
+                                <img src="image/spot-9.jpg" alt="">
+                            </div>
+                            <div class="spot-content">
+                                <div class="row justify-content">
+                                    <h3 class="roboto">Atelier</h3>
+                                    <a href="">
+                                        <h3 class="roboto">₹59,990<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <p class="spotp roboto"> Your personal workbench, with technology that allows you to
+                                    froth any type of milk, from cow to almond to soy.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="cfe">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12">
+                            <div class="spot-img">
+                                <img src="image/spot-10.jpg" alt="">
+                            </div>
+                            <div class="spot-content">
+                                <div class="row justify-content">
+                                    <h3 class="roboto">Lavazza Coffee Beans</h3>
+                                    <a href="">
+                                        <h3 class="roboto">₹499<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <p class="spotp roboto">Handpicked from the plantations of Coorg &amp; Chikmagalur with
+                                    an exotic aroma of chocolate &amp; spices.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12">
+                            <div class="spot-img">
+                                <img src="image/spot-11.jpg" alt="">
+                            </div>
+                            <div class="spot-content">
+                                <div class="row justify-content">
+                                    <h3 class="roboto">illy Ground Coffee</h3>
+                                    <a href="">
+                                        <h3 class="roboto">₹1,499<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <p class="spotp roboto">Gives the coffee engaging notes of cocoa and dried fruits with a
+                                    full-bodied aftertaste. 100% Arabica.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12">
+                            <div class="spot-img">
+                                <img src="image/spot-12.jpg" alt="">
+                            </div>
+                            <div class="spot-content">
+                                <div class="row justify-content">
+                                    <h3 class="roboto">Littles Instance Coffee</h3>
+                                    <a href="">
+                                        <h3 class="roboto">₹799<i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </h3>
+                                    </a>
+                                </div>
+                                <p class="spotp roboto">100% Premium freeze-dried smooth and rich Arabica coffees. No
+                                    added Sugar and Vegan friendly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- coffee flavour section-->
+    <section class="coffee" >
+        <h2 class="abril" data-aos="zoom-in-down" data-aos-duration="1000">Discover 100+ Nespresso Coffee Flavours</h2>
+        <div class="container">
+            <div class="row align-items justify-content-center">
+                <div class="text-center coffee-t" data-aos="fade-up-left">
+                    <img src="image/coffee-1.png" alt="">
+                    <p class="roboto">Limited Edition</p>
+                </div>
+                <div class="text-center coffee-t" data-aos="fade-up-left">
+                    <img src="image/coffee-2.png" alt="">
+                    <p class="roboto">Capsule Bundles</p>
+                </div>
+                <div class="text-center coffee-t" data-aos="fade-up-left">
+                    <img src="image/coffee-3.png" alt="" >
+                    <p class="roboto">Ispirazional Italina</p>
+                </div>
+                <div class="text-center coffee-t" data-aos="fade-up-left">
+                    <img src="image/coffee-4.png" alt="">
+                    <p class="roboto">Barista Creation</p>
+                </div>
+                <div class="text-center coffee-t" data-aos="fade-up-left">
+                    <img src="image/coffee-5.png" alt="">
+                    <p class="roboto">World Explorations</p>
+                </div>
+                <div class="text-center coffee-t" data-aos="fade-up-left">
+                    <img src="image/coffee-6.png" alt="">
+                    <p class="roboto">Starbucks</p>
+                </div>
+                <div class="text-center coffee-t" data-aos="fade-up-left">
+                    <img src="image/coffee-7.png" alt="">
+                    <p class="roboto">Decaffeinated</p>
+                </div>
+                <div class="text-center coffee-t" data-aos="fade-up-left">
+                    <img src="image/coffee-8.png" alt="">
+                    <p class="roboto">Master Origin</p>
+                </div>
+                <div class="text-center coffee-t" data-aos="fade-up-left">
+                    <img src="image/coffee-9.png" alt="">
+                    <p class="roboto">VertuoLine</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- home coffee section -->
+    <section class="homecoffee">
+        <h2 class="abril">Curate Your Home Coffee Bar With Us!</h2>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 " data-aos="fade-up-right" data-aos-duration="1000">
+                        <img src="image/hc-1.jpg" alt="" >
+                    <p class="roboto">Now create third wave speciality coffee at home from bean to espresso in less than
+                        a minute.</p>
+                    <a href=""><button>Shop Now</button></a>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 "  data-aos="slide-up" data-aos-duration="1200">
+                    <img src="image/hc-2.jpg" alt="">
+                    <p class="roboto">Experience coffee capsules like never before with world's best specialty coffee
+                        pod machines.</p>
+                    <a href=""><button>Shop Now</button></a>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 "  data-aos="fade-up-left" data-aos-duration="1000">
+                    <img src="image/hc-3.jpg" alt="">
+                    <p class="roboto">Enjoy the best coffee, which you previously only knew from Italian coffee bars,
+                        even at home.</p>
+                    <a href=""><button>Shop Now</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- favorite coffee  -->
+    <section class="fc" >
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12" data-aos="zoom-out" data-aos-duration="1000">
+                    <div class="fc-2 text-center">
+                        <img src="image/fc-2.jpeg" alt="">
+                        <div class="fcaa">
+                            <h3 class="roboto">5 steps to brew better capsule coffee at home</h3>
+                            <p class="roboto">For those who own a capsule machine at home, we feel it is time to...</p>
+                        </div>
+                        <div class="fcb">
+                            <a href="" class="roboto">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12" data-aos="zoom-out" data-aos-duration="1000">
+                    <div class="fc-2 text-center">
+                        <img src="image/fc-3.jpeg" alt="">
+                        <div class="fcaa">
+                            <h3 class="roboto">Hold That Button Down: A Guide to Consistent Capsule Brewing</h3>
+                            <p class="roboto">Capsule brewing machines have made espresso infinitely more accessible to
+                                the home user. Other traditional...</p>
+                        </div>
+                        <div class="fcb">
+                            <a href="" class="roboto">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12" data-aos="zoom-out" data-aos-duration="1000">
+                    <div class="fc-2 text-center">
+                        <img src="image/fc-4.jpeg" alt="">
+                        <div class="fcaa">
+                            <h3 class="roboto">A Brief History of the Coffee Capsule</h3>
+                            <p class="roboto">To say that single-serve coffee has come a long way from those tiny
+                                packets of...</p>
+                        </div>
+                        <div class="fcb">
+                            <a href="" class="roboto">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- counter section  -->
+    <section class="counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-xl-3 ">
+                    <div class="row align-items justify-content-center">
+                        <div class="count-i">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <div class="count count-d">
+                            <h1 class="roboto" id="spe">15</h1>
+                            <h3 class="roboto">SPECIALIST</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-xl-3">
+                    <div class="row align-items justify-content-center">
+                        <div class="count-i">
+                            <i class="fa-solid fa-handshake"></i>
+                        </div>
+                        <div class="count count-d">
+                            <h1 class="roboto" id="happy">125</h1>
+                            <h3 class="roboto">HAPPY CLIENT</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-xl-3">
+                    <div class="row align-items justify-content-center">
+                        <div class="count-i">
+                            <i class="fa-solid fa-folder-open"></i>
+                        </div>
+                        <div class="count count-d">
+                            <h1 class="roboto">510</h1>
+                            <h3 class="roboto">PROJECT</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-xl-3">
+                    <div class="row align-items justify-content-center">
+                        <div class="count-i">
+                            <i class="fa-solid fa-folder-open"></i>
+                        </div>
+                        <div class="count count-d">
+                            <h1 class="roboto">510</h1>
+                            <h3 class="roboto">PROJECT</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-xl-3">
+                    <div class="row align-items justify-content-center">
+                        <div class="count-i">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <div class="count count-d">
+                            <h1 class="roboto">42</h1>
+                            <h3 class="roboto">AWARDS</h3>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+       <!-- Say Hello On Instagram! -->
+       <section id="instagram-section" >
+        <h2 class="instagram-title abril">Say Hello On Instagram!</h2>
+        <p class="instagram-text roboto">Tag us in your story to get featured on ours.<br>Follow us <a href="https://www.instagram.com/caramelly.in/" target="_blank">@caramelly.in</a></p>
+
+        <div class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="insta-img">
+                            <img src="image/last2cont_1.jpg" alt="Image 1">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="insta-img">
+                            <img src="image/last2cont_2.jpg" alt="Image 1">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="insta-img">
+                            <img src="image/last2cont_3.jpg" alt="Image 1">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="insta-img">
+                            <img src="image/last2cont_4.jpg" alt="Image 1">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="insta-img">
+                            <img src="image/last2cont_5.jpg" alt="Image 1">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="insta-img">
+                            <img src="image/last2cont_6.jpg" alt="Image 1">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="insta-img">
+                            <img src="image/last2cont_7.jpg" alt="Image 1">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="insta-img">
+                            <img src="image/last2cont_8.jpg" alt="Image 1">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+    <div id="footerdiv"></div>
+    <!-- footer -->
+
+
+   
+
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    document.querySelector(".fa-bars").addEventListener("click",(e)=>{
+        let ul=document.querySelector("nav ul")
+        ul.classList.add("activheader")
+    })
+    document.querySelector(".fa-xmark").addEventListener("click",(e)=>{
+        let ul=document.querySelector("nav ul")
+        ul.classList.remove("activheader")
+    })
+</script>
+  <script>
+    AOS.init({
+        offset: 300,
+        duration: 1000, 
+    });
+  </script>
+<script type="module" src="index.js"></script>
+<script src="/Javascript/slider.js"></script>
+<script src="Javascript/vishal.js"></script>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        @import url(/Style/index.css);
+        @import url(/Style/font.css);
+        @import url(/Style/media.css);
+        @import url(/Style/all.min.css);
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="login-box">
+                <h1>login</h1>
+                <form id="login">
+                    <label>email address : </label>
+                    <input type="email" id="loginemail"><br>
+                    <p id="email-error"></p>
+                    <label>password <span>:</span> </label>
+                    <input type="password" id="pass-login"><br>
+                    <p id="password-error"></p>
+                    <div class="checkbox">
+                        <div id="checkbox">
+                            <input type="checkbox" id=""><p id="show">Show password !</p>
+                        </div>
+                        <a href=""><p id="forget">forget password ?</p></a>
+                    </div>
+                    <button type="submit" value="login" id="login-btn">login</button>
+                    <p class="singup-de">don`t have an account ? <a href="/Page/sign.html" class="singup-cheng">Sign-up</a></p>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="forget-box">
+        <div class="email-cheak">
+            <h2>Forget password Email check</h2>
+            <form id="forget-check">
+                <div class="for-input"><label id="for-email">email : </label><input type="email" id="for-email-in"><br><button id="for-btn">check</button></div>
+            </form>
+        </div>
+        <div class="pass-cheak">
+            <h2>Forget password</h2>
+            <form id="forget-check">
+                <div class="for-input">
+                    <label id="for-email">password : </label>
+                    <input type="password" id="for-pass-in"><br>
+                    <p class="for-error"></p>
+                    <div class="check-for">
+                        <input type="checkbox" id="shopaa"> show password !
+                    </div>
+                    <button id="res-btn">Reset password</button>
+                </div>
+                
+            </form>
+        </div>
+    </section>
+</body>
+<script type="module" src="/Javascript/login.js"></script>
+</html>
